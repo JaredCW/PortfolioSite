@@ -16,7 +16,7 @@
     <title>Portfolio - Jared Conner</title>
 </head>
 <body>
-
+    <!-- TODO: Clean up class/ids from default values to be more understandable -->
     <!-- Header -->
     <nav id="navbar-example2" class="navbar sticky-top px-3 mb-3">
         <a class="navbar-brand" href="#">Jared Conner - Web Developer</a>
@@ -33,8 +33,7 @@
         </ul>
     </nav>
 
-
-<div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-light p-3 rounded-2" tabindex="0">
+    <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-light p-3 rounded-2" tabindex="0">
 
     <!-- Showcase -->
     <section id="showcase">
@@ -45,11 +44,14 @@
     </section>
 
     <!-- Line Break Container -->
+    <!-- ? Does this need to go under a different name? -->
+    <!-- TODO: Work on positioning (CSS) -->
     <section id="lBContainer">
         <div class="container">
             <h1>Featured Projects</h1>
 
     <!-- Toast -->
+    <!-- TODO: Fix default values and work on moving from a button to an automated message. Don't forget your JS file! -->
     <button type="button" class="btn" id="liveToastBtn">Click Here for Resume</button>
 
     <div class="toast-container position-fixed bottom-0 end-0 p-3">
@@ -86,12 +88,13 @@
     </section>
 
     <!-- About -->
+    <!-- * Feedback: Add more to the About Me content, 1-2 sentences -->
     <section id="about">
         <div class="container">
             <article class="main-col">
                 <h1 class="page-title">About Me</h1>
                 <p>I've been practicing coding from a young age, learning DOS-CLI at the age of five. Since then, I've spent my life expounding on passion and keeping these skills current in an ever-shifting workspace!</p>
-                <p class="light">I've been fortunate enough to join the <a href="#">CommonWealth Coders</a> program, and experience the services offered through their affiliation with <a href="#">Career TEAM</a>. Completion of this course will formally certify the skills I've developed for the working world.</p>
+                <p class="light">I've been fortunate enough to join the <a href="https://commonwealthcoders.com/">CommonWealth Coders</a> program, and experience the services offered through their affiliation with <a href="https://careerteam.com/">Career TEAM</a>. Completion of this course will formally certify the skills I've developed for the working world.</p>
             </article>
 
             <aside class="sidebar">
@@ -104,6 +107,7 @@
     </section>
 
     <!-- Contact Info -->
+    <!-- TODO: Redesign the spacing (CSS). -->
     <section id="contact">
         <div class="container">
             <article class="main-col">
@@ -147,6 +151,7 @@
                     </form>
                 </div>
                 <div class="video">
+                    <!-- ! Don't forget to fix this placeholder when you get the video! -->
                     <h3>Career TEAM Interview</h3>
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/NpEaa2P7qZI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
@@ -156,7 +161,7 @@
 </div>
 
     <footer>
-        <p>Site Design by Jared Conner, Copyright &copy; 2022. All other rights reserved by associated content owners. Remember, leveraging existing assests is not plagiarism!</p>
+        <p>Site Design by Jared Conner, Copyright &copy; 2022. All other rights reserved by respective content owners. Remember, leveraging existing assests is not plagiarism!</p>
     </footer>
 
 

@@ -3,11 +3,13 @@
 /* Basic Style */
 
 body {
+    /* TODO: Let's get a new font */
     font-family: 'Lato', sans-serif;
     font-size: 15px;
     padding: 0;
     margin: 0;
     line-height: 1.5;
+    /* ? Can I do something better with this? I hated the white backdrop, but it made a mess when I tried to change it without considering the other containers */
     background-color: #f4f4f4;
 }
 
