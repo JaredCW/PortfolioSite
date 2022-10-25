@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+/* Basic Style */
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    padding: 0;
+    margin: 0;
+    line-height: 1.5;
+    background-color: #f4f4f4;
+}
+
+nav {
+    background: #fccd04;
+    color: #a64ac9;
+}
+
+nav .nav-link {
+    color: #a64ac9;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+.btn-1 {
+    height: 38px;
+    background-color: #eb4442;
+    border: 0;
+    padding: 0 20px;
+    color: #fff;
+}
+
+.light, .dark {
+    padding: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.light {
+    background-color: #a64ac9;
+    color: #fccd04;
+}
+
+.dark {
+    background-color: #fccd04;
+    color: #a64ac9;
+}
+
+/* Header */
+
+header {
+    background-color: #fccd04;
+    color: #a64ac9;
+    /* Setting min-height so the height for the header section can expand if needed */
+    min-height: 70px;
+    border-bottom: 3px solid #fccd04;
+    padding: 5px 0;
+}
+
+header > .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+header ul {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+header li {
+    list-style: none;
+    padding: 0 20px;
+}
+
+header a {
+    color: #a64ac9;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+#highlight, #current a {
+    color: #eb4442;
+    font-weight: 700;
+}
+
+#current a:hover, a:hover {
+    color: #ccc;
+    font-weight: 700;
+}
+
+/* Showcase */
+
+#showcase {
+    min-height: 400px;
+    background-image: url("Media/dndcode.png");
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    text-shadow: 2px 1px #8e0687;
+    color: rgb(233, 245, 5);
+}
+
+#showcase h1 {
+    margin-top: 100px;
+    margin-bottom: 10px;
+    font-size: 55px;
+}
+
+#showcase h2 {
+    text-decoration: underline solid;
+    text-transform: capitalize;
+    margin-bottom: 5px;
+}
+
+#showcase p {
+    font-size: 20px;
+}
+
+/* lBContainer */
+
+#lBContainer {
+    background-color: #fccd04;
+    padding: 25px;
+    color: #a64ac9;
+}
+
+#lBContainer > .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#lBContainer .btn {
+    background: #a64ac9;
+    color: #fccd04;
+}
+
+/* Skills */
+
+#skills .container {
+    text-align: center;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 3fr);
+    grid-gap: 10px;
+    grid-template-rows: 200px;
+}
+
+#skills img {
+    width: 200px;
+}
+
+i {
+    font-size: 150px;
+}
+
+
+/* About */
+
+#about {
+    background-color: #fccd04;
+    padding: 20px;
+}
+
+#about > .container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    column-gap: 50px;
+}
+
+#about a {
+    color: #fccd04;
+}
+
+#about .main-col {
+    color: #a64ac9;
+}
+
+#about .sidebar {
+    margin-top: 10px;
+}
+
+/* Contact Info */
+
+#contact > .container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    column-gap: 40px;
+}
+
+#contact li {
+    border: 1px solid #a64ac9;
+    padding: 20px;
+    margin-bottom: 5px;
+    background-color: #fccd04;
+    color: #a64ac9;
+}
+
+#contact a {
+    color: #a64ac9;
+}
+
+#contact .sidebar {
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+#contact input, #contact textarea {
+    padding: 5px;
+    width: 90%;
+}
+
+#contact .video {
+    text-align: center;
+}
+
+/* Footer */
+
+footer {
+    background-color: #fccd04;
+    color: #a64ac9;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+footer a {
+    color: #a64ac9;
+}
+
+@media (max-width: 768px) {
+    header > .container,
+    #lBContainer > .container,
+    #skills > .container {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+
+    #showcase .container {
+        padding-bottom: 50px;
+    }
+
+    .box {
+        width: 80%
+    }
+
+    #about > .container,
+    #contact > .container {
+        grid-template-columns: 1fr;
+    }
+
+    /* TODO - Adjust Subscribe container for Widths 870-768px */
+}
+
