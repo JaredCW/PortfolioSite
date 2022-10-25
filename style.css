@@ -146,9 +146,9 @@ header a {
     color: #fccd04;
 }
 
-/* Skills */
+/* Projects */
 
-#skills .container {
+#projects .container {
     text-align: center;
     margin-top: 20px;
     display: grid;
@@ -157,7 +157,7 @@ header a {
     grid-template-rows: 200px;
 }
 
-#skills img {
+#projects img {
     width: 200px;
 }
 
@@ -242,7 +242,7 @@ footer a {
 @media (max-width: 768px) {
     header > .container,
     #lBContainer > .container,
-    #skills > .container {
+    #projects > .container {
         flex-direction: column;
         align-items: center;
         justify-content: center;
