@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@400;700&display=swap');
 
 /* Basic Style */
 
 body {
-    /* TODO: Let's get a new font */
-    font-family: 'Lato', sans-serif;
+    font-family: 'Fuzzy Bubbles', cursive;
     font-size: 15px;
     padding: 0;
     margin: 0;
@@ -14,6 +14,8 @@ body {
 }
 
 nav {
+    font-family: 'Lato', sans-serif;
+    font-style: bold;
     background: #fccd04;
     color: #a64ac9;
 }
@@ -230,6 +232,7 @@ i {
 /* Footer */
 
 footer {
+    font-family: 'Lato', sans-serif;
     background-color: #fccd04;
     color: #a64ac9;
     padding: 20px;
